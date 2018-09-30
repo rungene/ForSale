@@ -3,6 +3,8 @@ package rungene.com.forsale;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -12,14 +14,34 @@ import android.widget.Toast;
 import com.google.firebase.auth.FirebaseAuth;
 
 import rungene.com.forsale.account.LoginActivity;
+import rungene.com.forsale.util.SectionsPagerAdapter;
 
 
 public class SearchActivity extends AppCompatActivity {
+    private static final String TAG = "SearchActivity";
+
+    //widgets
+   private TabLayout tabLayout;
+   public ViewPager viewPager;
+
+   //vars
+    public SectionsPagerAdapter sectionsPagerAdapter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+
+        tabLayout = findViewById(R.id.tabs);
+        viewPager = findViewById(R.id.viewpager);
+        setUpViewPager();
+    }
+
+    private  void setUpViewPager(){
+        sectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+
+      viewPager.setAdapter(sectionsPagerAdapter);
+      tabLayout.setupWithViewPager(viewPager);
 
     }
 

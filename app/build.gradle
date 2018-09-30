@@ -44,7 +44,7 @@ dependencies {
     //Firebase Storage
     compile 'com.google.firebase:firebase-storage:11.4.2'
 
-    //design support library
+    //design support library dependency
     compile 'com.android.support:design:26.+'
 
 }
