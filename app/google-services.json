@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "956366182954",
+    "firebase_url": "https://photoblog-android-blog-a-30513.firebaseio.com",
+    "project_id": "photoblog-android-blog-a-30513",
+    "storage_bucket": "photoblog-android-blog-a-30513.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956366182954:android:f2197643bf0111e7",
+        "android_client_info": {
+          "package_name": "in.tvac.akshayejh.photoblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956366182954-la36mdt26l6qtt9g90fsrc9gelvuhv32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.tvac.akshayejh.photoblog",
+            "certificate_hash": "ef242023a065e941ec8437248ea2081b41843119"
+          }
+        },
+        {
+          "client_id": "956366182954-gsk1p094fmk3h881d7moo387gtg56o15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMYJutj5MktPKWfI55K66f5wkGj-qagMA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956366182954-gsk1p094fmk3h881d7moo387gtg56o15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956366182954:android:13dd26c4a9130e04",
+        "android_client_info": {
+          "package_name": "rungene.com.forsale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956366182954-l7oprgcmkppc7b920foo98oi782o0g9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rungene.com.forsale",
+            "certificate_hash": "ef242023a065e941ec8437248ea2081b41843119"
+          }
+        },
+        {
+          "client_id": "956366182954-gsk1p094fmk3h881d7moo387gtg56o15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMYJutj5MktPKWfI55K66f5wkGj-qagMA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956366182954-gsk1p094fmk3h881d7moo387gtg56o15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
